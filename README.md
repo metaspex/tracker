@@ -17,23 +17,23 @@ the same specification, but that need is usually pushed to extreme needs. In thi
 instance it was not needed to do more than a simple monolith.
 
 Once this application is compiled, the complete Nginx binary module containing
-all the application, including security is less than 23 MB, which is extremely
+all the application, including security is less than 20 MB, which is extremely
 small. It is comparable to the size of a single modern Internet HTML page.
 
-The binary contains all the 291 web services and associated business logic.
+The binary contains all the 196 web services and associated business logic.
 
 The same binary can be deployed without recompilation on [Couchbase](https://www.couchbase.com/) or [MongoDB](https://www.mongodb.com/).
 Changing the underlying database requires only an update of the configuration
 file.
 
 The source code is made public not for compilation but to inspect the contents
-of a vast [Metaspex](http://metaspex.com) application.
+of a complete [Metaspex](http://metaspex.com) application.
 
 The files of interest you can consult first are:
 
-- [include/events/ontology.hpp](include/events/ontology.hpp): the entire ontology of the application in a
+- [include/tracker/ontology.hpp](include/events/ontology.hpp): the entire ontology of the application in a
   single file.
-- [include/events/payloads.hpp](include/events/payloads.hpp): the payloads (queries and replies) accepted by
+- [include/tracker/payloads.hpp](include/events/payloads.hpp): the payloads (queries and replies) accepted by
   the application's web services.
 - [src/server/services.cpp](src/server/services.cpp): the description of the custom web services.
 
