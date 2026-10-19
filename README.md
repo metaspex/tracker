@@ -24,7 +24,7 @@ The entire source code is the work of a single person day.
 
 The binary contains all the 196 web services and associated business logic.
 
-The same binary can be deployed without recompilation on [Couchbase](https://www.couchbase.com/) or [MongoDB](https://www.mongodb.com/).
+The same binary can be deployed without recompilation on [Couchbase](https://www.couchbase.com/), [MongoDB](https://www.mongodb.com/) or [Apache CouchDB](https://couchdb.apache.org/).
 Changing the underlying database requires only an update of the configuration
 file.
 
