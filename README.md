@@ -1,4 +1,4 @@
-Warning: you need the [Metaspex](http://metaspex.com) product to compile this application. Please contact us at info@metaspex.com to get access to [Metaspex](http://metaspex.com).
+Warning: you need the [Metaspex](http://metaspex.com) product to compile this application. Please contact us at info@metaspex.com to get access to Metaspex.
 
 This repository contains an entire professional application counting:
 
@@ -12,7 +12,7 @@ This application monitors the effectiveness of email and messaging marketing cam
 The ontology deals with campaigns, tracking codes and interaction logs.
 
 The back end does not leverage any third-party system. It is a monolith.
-[Metaspex](http://metaspex.com) is capable of producing multiple micro services from
+Metaspex is capable of producing multiple micro services from
 the same specification, but that need is usually pushed to extreme needs. In this specific
 instance it was not needed to do more than a simple monolith.
 
@@ -29,7 +29,7 @@ Changing the underlying database requires only an update of the configuration
 file.
 
 The source code is made public not for compilation but to inspect the contents
-of a complete [Metaspex](http://metaspex.com) application.
+of a complete Metaspex application.
 
 The files of interest you can consult first are:
 
