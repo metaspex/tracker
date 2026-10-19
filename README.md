@@ -35,7 +35,7 @@ The files of interest you can consult first are:
   single file.
 - [include/tracker/payloads.hpp](include/tracker/payloads.hpp): the payloads (queries and replies) accepted by
   the application's web services.
-- [src/server/services.cpp](src/tracker/services.cpp): the description of the custom web services.
+- [src/server/services.cpp](src/server/services.cpp): the description of the custom web services.
 
 Any question, please email support@metaspex.com
 
