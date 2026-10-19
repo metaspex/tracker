@@ -2,20 +2,19 @@ Warning: you need the [Metaspex](http://metaspex.com) product to compile this ap
 
 This repository contains an entire professional application counting:
 
-- 74 fully custom web services.
-- 36 messaging-related web services.
-- 181 Metaspex foundation ontology web services (e.g., security-related).
+- 14 fully custom web services.
+- 182 Metaspex foundation ontology web services (e.g., security-related).
 
-For a grand total of 291 web services.
+For a grand total of 196 web services.
 
-This application performs event management. The ontology deals with venues,
-guests, hosts, organizers, bookings, invites and more.
+This application monitors the effectiveness of email and messaging marketing campaigns.
 
-Except sending texts, App notifications and sending email, the back end does
-not leverage any third-party system. It is a monolith. [Metaspex](http://metaspex.com) is capable
-of producing multiple micro services from the same specification, but that
-need is usually pushed to extreme needs. In this specific instance it was not
-needed to do more than a simple monolith.
+The ontology deals with campaigns, tracking codes and interaction log.
+
+The back end does not leverage any third-party system. It is a monolith.
+[Metaspex](http://metaspex.com) is capable of producing multiple micro services from
+the same specification, but that need is usually pushed to extreme needs. In this specific
+instance it was not needed to do more than a simple monolith.
 
 Once this application is compiled, the complete Nginx binary module containing
 all the application, including security is less than 23 MB, which is extremely
@@ -40,4 +39,4 @@ The files of interest you can consult first are:
 
 Any question, please email support@metaspex.com
 
-Copyright 2025 [Metaspex](http://metaspex.com) LLC
+Copyright 2026 [Metaspex](http://metaspex.com) LLC
