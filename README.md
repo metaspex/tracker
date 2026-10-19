@@ -20,6 +20,8 @@ Once this application is compiled, the complete Nginx binary module containing
 all the application, including security is less than 20 MB, which is extremely
 small. It is comparable to the size of a single modern Internet HTML page.
 
+The entire source code is the work of a single person day.
+
 The binary contains all the 196 web services and associated business logic.
 
 The same binary can be deployed without recompilation on [Couchbase](https://www.couchbase.com/) or [MongoDB](https://www.mongodb.com/).
