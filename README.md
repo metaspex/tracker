@@ -9,7 +9,7 @@ For a grand total of 196 web services.
 
 This application monitors the effectiveness of email and messaging marketing campaigns.
 
-The ontology deals with campaigns, tracking codes and interaction log.
+The ontology deals with campaigns, tracking codes and interaction logs.
 
 The back end does not leverage any third-party system. It is a monolith.
 [Metaspex](http://metaspex.com) is capable of producing multiple micro services from
