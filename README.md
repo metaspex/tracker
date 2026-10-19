@@ -31,11 +31,11 @@ of a complete [Metaspex](http://metaspex.com) application.
 
 The files of interest you can consult first are:
 
-- [include/tracker/ontology.hpp](include/events/ontology.hpp): the entire ontology of the application in a
+- [include/tracker/ontology.hpp](include/tracker/ontology.hpp): the entire ontology of the application in a
   single file.
-- [include/tracker/payloads.hpp](include/events/payloads.hpp): the payloads (queries and replies) accepted by
+- [include/tracker/payloads.hpp](include/tracker/payloads.hpp): the payloads (queries and replies) accepted by
   the application's web services.
-- [src/server/services.cpp](src/server/services.cpp): the description of the custom web services.
+- [src/server/services.cpp](src/tracker/services.cpp): the description of the custom web services.
 
 Any question, please email support@metaspex.com
 
