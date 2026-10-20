@@ -117,7 +117,7 @@ namespace tracker {
   private:
 
     // The strong link allows to make it so that when a campaign is removed, all the
-    // related codes will be removed also.
+    // related tracker codes will be removed also.
     link<campaign> _campaign;
     slot<string> _email;
     // The consultations log.
