@@ -16,7 +16,8 @@ Using web services taking JSON in and replying JSON, you:
 - Create a campaign.
 - Create a tracker dedicated to a target person (identified by their email).
 - Send a URI containing the tracker id to the target person via email or any kind of
-  messaging system.
+  messaging system. The URI is of the form:
+  https://yourdomain/tracker/2a18684cb20042b886808c634ea6fff9
 - When the URI is accessed, the back end, which is integrated to the web server, records
   the interaction (origin IP address, allowing to locate the target geolocation, and the
   timestamp of the interaction). A new interaction is recorded in the log every time the
@@ -32,7 +33,7 @@ Additional web services allow to:
 
 - Remove a campaign. All the corresponding trackers and interaction logs will be removed
   too.
-- List all campagns by name through paginated services (several at a time, next and previous
+- List all campaigns by name through paginated services (several at a time, next and previous
   web services to browse).
 - Remove a tracker.
 - Browse through all the trackers for a given target email address, across all campaigns.
