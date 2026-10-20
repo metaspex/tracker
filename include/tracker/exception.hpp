@@ -14,6 +14,7 @@ namespace tracker {
 
   using campaign_does_not_exist = application_exception<"tracking_miss", "Tracking code does not exist.">;
   using tracker_code_does_not_exist = application_exception<"campaign_miss", "Tracking code does not exist.">;
+  using tracker_domain_not_defined = application_exception<"domain_miss", "Tracker domain has not been defined.">;
 
 } // End namespace tracker.
 

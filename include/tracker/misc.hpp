@@ -20,7 +20,6 @@ namespace tracker {
   constexpr auto max_consultations_config_name = config_name<"max_consultations">;
   
   constexpr auto test_web_tracker_domain_name = config_name<"test_web_tracker_domain">;
-  constexpr auto test_web_tracker_domain_default = "aurinko.selfip.net:8083";
   
   constexpr auto test_web_tracker_prefix_name = config_name<"test_web_tracker_prefix">;
   // Slash added automatically, don't include it.

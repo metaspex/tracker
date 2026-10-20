@@ -180,7 +180,12 @@ namespace tracker {
 
       string subject = "How to track your marketing campaign";
 
-      static string tracker_domain = config::get_string_or(test_web_tracker_domain_name, test_web_tracker_domain_default);
+      static string tracker_domain = config::get_string_or(test_web_tracker_domain_name, "");
+
+      if (tracker_domain.empty()){
+        throw tracker_domain_not_defined();
+      }
+      
       static string tracker_prefix = config::get_string_or(test_web_tracker_prefix_name, test_web_tracker_prefix_default);
       static string tracker_http = config::get_boolean_or(test_web_tracker_http_name, false) ? "http" : "https";
       
