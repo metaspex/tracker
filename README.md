@@ -15,7 +15,8 @@ Using web services, you:
 
 - Create a campaign.
 - Create a tracker dedicated to a target person (identified by their email).
-- Send a URI containing the tracker id to the target person.
+- Send a URI containing the tracker id to the target person via email or any kind of
+  messaging system.
 - When the URI is accessed, the back end, which is integrated to the web server, records
   the interaction (origin IP address, allowing to locate the target geolocation, and the
   timestamp of the interaction). A new interaction is recorded in the log every time the
