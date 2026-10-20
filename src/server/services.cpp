@@ -15,6 +15,7 @@
 #include "hx2a/payloads/reply_id.hpp"
 #include "hx2a/prologue/root_checker_prologue.hpp"
 #include "hx2a/service.hpp"
+// To include all the foundation web services.
 #include "hx2a/services/foundation.hpp"
 
 #include "tracker/exception.hpp"
