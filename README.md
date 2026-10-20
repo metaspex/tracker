@@ -11,7 +11,7 @@ This application monitors the effectiveness of email and messaging marketing cam
 
 The ontology deals with campaigns, tracking codes and interaction logs.
 
-Using web services, you:
+Using web services taking JSON in and replying JSON, you:
 
 - Create a campaign.
 - Create a tracker dedicated to a target person (identified by their email).
