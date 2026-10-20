@@ -24,7 +24,8 @@ Using web services, you:
 You can check any time:
 
 - If a tracker has been accessed.
-- The entire log of the interactions with the tracker.
+- The entire log of the interactions with the tracker (from its id or from the the target
+  email address).
 
 Additional web services allow to:
 
