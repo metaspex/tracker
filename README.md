@@ -37,7 +37,9 @@ Additional web services allow to:
 - Remove a tracker.
 - Browse through all the trackers for a given target email address, across all campaigns.
 
-All web services respond within milliseconds or less than a millisecond in real time.
+All web services respond within milliseconds or less than a millisecond in real time, and
+scalability is linear over a single or multiple machines, from a $15 Raspberry Pi Zero 2
+to the largest 256-core machines in the private or public cloud.
 
 The back end does not leverage any third-party system. It is a monolith.
 Metaspex is capable of producing multiple micro services from
