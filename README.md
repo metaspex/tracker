@@ -11,6 +11,32 @@ This application monitors the effectiveness of email and messaging marketing cam
 
 The ontology deals with campaigns, tracking codes and interaction logs.
 
+Using web services, you:
+
+- Create a campaign.
+- Create a tracker dedicated to a target person (identified by their email).
+- Send a URI containing the tracker id to the target person.
+- When the URI is accessed, the back end, which is integrated to the web server, records
+  the interaction (origin IP address, allowing to locate the target geolocation, and the
+  timestamp of the interaction). A new interaction is recorded in the log every time the
+  URI is accessed. The web server returns a page of your choice as a reply to the access.
+
+You can check any time:
+
+- If a tracker has been accessed.
+- The entire log of the interactions with the tracker.
+
+Additional web services allow to:
+
+- Remove a campaign. All the corresponding trackers and interaction logs will be removed
+  too.
+- List all campagns by name through paginated services (several at a time, next and previous
+  web services to browse).
+- Remove a tracker.
+- Browse through all the trackers for a given target email address, across all campaigns.
+
+All web services respond within milliseconds or less than a millisecond in real time.
+
 The back end does not leverage any third-party system. It is a monolith.
 Metaspex is capable of producing multiple micro services from
 the same specification, but that need is usually pushed to extreme needs. In this specific
@@ -20,7 +46,8 @@ Once this application is compiled, the complete Nginx binary module containing
 all the application, including security is less than 20 MB, which is extremely
 small. It is comparable to the size of a single modern Internet HTML page.
 
-The entire source code is the work of a single person day.
+The entire Metaspex source code is the work of a single person day. This is possible
+because the code is very high level.
 
 The binary contains all the 196 web services and associated business logic.
 
